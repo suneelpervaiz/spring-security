@@ -11,8 +11,11 @@ public class SecurityApplication {
 
 		System.out.println("build triggers automatucally");
 
+        System.out.println("build triggers automatucally twice");
 
-		SpringApplication.run(SecurityApplication.class, args);
+
+
+        SpringApplication.run(SecurityApplication.class, args);
 	}
 
 }
