@@ -7,6 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SecurityApplication {
 
 	public static void main(String[] args) {
+
+
+		System.out.println("build triggers automatucally");
+
+
 		SpringApplication.run(SecurityApplication.class, args);
 	}
 
