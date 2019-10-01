@@ -11,7 +11,7 @@ public class SecurityApplication {
 
 		System.out.println("build triggers automatucally");
 
-        System.out.println("build triggers automatucally twice");
+        System.out.println("build triggers  twice");
 
 
 
