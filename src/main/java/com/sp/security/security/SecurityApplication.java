@@ -27,6 +27,8 @@ public class SecurityApplication {
 
         System.out.println("build triggers iiiii twice");
 
+        System.out.println("build triggers iiiii twice");
+
 
 
 
