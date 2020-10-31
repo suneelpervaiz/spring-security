@@ -11,6 +11,5 @@ node{
     sh "${mvnHome}/bin/mvn package"
   }
   stage('Email notification'){
-      mail bcc: '', body: 'Hello world', cc: '', from: '', replyTo: '', subject: 'Jemkins email ', to: 'suneelpervaiz.uu@gmail.com'
-  }
+mail bcc: '', body: 'Hello world', cc: '', from: '', replyTo: '', subject: 'Jenkin job email', to: 'suneelpervaiz.uu@gmail.com'  }
 }
