@@ -5,7 +5,10 @@ node{
     git 'https://github.com/suneelpervaiz/spring-security-old'
   }
   stage('Compile-Package'){
-   sh 'mvn package'
+    
+    def mvnHome = tool name: '', type: 'maven'
+    
+    sh "${mvnHome}/bin/mvn package"
   }
 
 
